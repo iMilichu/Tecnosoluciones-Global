@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Tecnosoluciones Global - Digitalización de Negocios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="TecnosolucionesGlobal">
+                <span>Tecnosoluciones<strong>Global</strong></span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="#" id="mvvBtn" class="btn-mvv">MVV</a></li>
+                    <li><a href="contacto.html" class="btn-nav">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero">
+            <div class="container hero-content fade-in">
+                <div class="hero-text">
+                    <h1>Transforma tu negocio con tecnología inteligente</h1>
+                    <p>Ayudamos a pequeñas y medianas empresas a dejar atrás procesos manuales. Creamos soluciones digitales a medida para que vendas más, administres mejor y crezcas sin límites.</p>
+                    <div class="hero-actions">
+                        <a href="servicios.html" class="btn-primary">Descubre Nuestras Soluciones</a>
+                        <a href="contacto.html" class="btn-secondary">Solicita una Asesoría Gratuita</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Valor -->
+        <section class="focus-section section-padding">
+            <div class="container fade-in">
+                <div class="section-header">
+                    <h2>Del Papel a la Nube</h2>
+                    <p>Entendemos que la transición digital puede parecer compleja. Por eso no solo te entregamos software; te acompañamos en cada paso de la evolución de tu negocio hacia una empresa moderna, competitiva y escalable.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Beneficios -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header text-center fade-in" style="margin: 0 auto;">
+                    <h2>¿Por qué Tecnosoluciones Global?</h2>
+                    <p>Combinamos experiencia en tecnología con comprensión profunda del mercado local</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">⚡</div>
+                        <h3>Implementación Rápida</h3>
+                        <p>Soluciones que se implementan en semanas, no meses. Tu negocio comienza a beneficiarse desde el primer día.</p>
+                    </div>
+                    
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">💰</div>
+                        <h3>Presupuestos Reales</h3>
+                        <p>Sin sorpresas. Entendemos que cada peso cuenta. Ofrecemos soluciones de calidad a precios justos.</p>
+                    </div>
+
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">🤝</div>
+                        <h3>Acompañamiento Total</h3>
+                        <p>No te dejamos solos. Capacitamos a tu equipo y brindamos soporte continuo para maximizar resultados.</p>
+                    </div>
+
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">📈</div>
+                        <h3>Resultados Medibles</h3>
+                        <p>Analítica integrada para ver en tiempo real el impacto de tu transformación digital.</p>
+                    </div>
+
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">🔒</div>
+                        <h3>Seguridad Garantizada</h3>
+                        <p>Tus datos en la nube con backups automáticos, encriptación y cumplimiento normativo.</p>
+                    </div>
+
+                    <div class="service-card fade-in">
+                        <div class="icon-wrapper">🚀</div>
+                        <h3>Escalable y Flexible</h3>
+                        <p>Soluciones que crecen con tu negocio. Desde una tienda virtual hasta complejos sistemas de gestión.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección CTA Final -->
+        <section class="section-padding bg-light">
+            <div class="container fade-in" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2 style="margin-bottom: 24px;">Listo para crecer digitalmente</h2>
+                <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 40px;">
+                    Tómate 15 minutos para compartir tu visión. Nuestro equipo analizará tu negocio y te propondrá la solución perfecta.
+                </p>
+                <a href="contacto.html" class="btn-primary" style="padding: 16px 40px; font-size: 1.05rem;">Comienza Tu Transformación Digital</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span class="currentYear"></span> Tecnosoluciones Global. Diseño limpio, código eficiente, resultados concretos.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Misión, Visión y Valores -->
+    <div class="mvv-modal" id="mvvModal" role="dialog" aria-label="Misión, Visión y Valores">
+        <div class="mvv-modal-content">
+            <button class="mvv-close" id="mvvClose" aria-label="Cerrar modal">&times;</button>
+            <h2>Misión, Visión y Valores</h2>
+            
+            <div class="mvv-tabs">
+                <button class="mvv-tab-btn active" data-tab="mision">Misión</button>
+                <button class="mvv-tab-btn" data-tab="vision">Visión</button>
+                <button class="mvv-tab-btn" data-tab="valores">Valores</button>
+            </div>
+            
+            <div class="mvv-content">
+                <div class="mvv-tab-content active" id="mision">
+                    <h3>Misión</h3>
+                    <p>Acompañar y facilitar la transición digital de las empresas mediante soluciones tecnológicas integrales. Desarrollamos software a la medida de las necesidades administrativas de cada cliente y proveemos la infraestructura de hardware exacta para su óptimo funcionamiento, eliminando barreras técnicas y optimizando sus procesos operativos de principio a fin.</p>
+                </div>
+                
+                <div class="mvv-tab-content" id="vision">
+                    <h3>Visión</h3>
+                    <p>Convertirnos en el socio tecnológico de referencia para el sector empresarial, siendo reconocidos por cerrar la brecha digital en las organizaciones. Buscamos liderar el mercado ofreciendo un ecosistema donde el desarrollo de software y la provisión de hardware convergen en un solo servicio de excelencia, impulsando el crecimiento y la modernización de nuestros clientes.</p>
+                </div>
+                
+                <div class="mvv-tab-content" id="valores">
+                    <h3>Valores</h3>
+                    <div class="valores-list">
+                        <div class="valor-item">
+                            <h4>Sinergia Tecnológica</h4>
+                            <p>Creemos que el software y el hardware no deben tratarse por separado; trabajamos para que ambas partes funcionen en perfecta armonía, evitando cuellos de botella.</p>
+                        </div>
+                        
+                        <div class="valor-item">
+                            <h4>Enfoque en la Solución (Empatía Empresarial)</h4>
+                            <p>No vendemos computadoras ni código por vender; escuchamos, diagnosticamos y resolvemos los dolores administrativos reales de nuestros clientes.</p>
+                        </div>
+                        
+                        <div class="valor-item">
+                            <h4>Calidad y Rendimiento</h4>
+                            <p>Nos comprometemos a entregar sistemas eficientes, con arquitecturas limpias, respaldados por equipos de alto rendimiento que garanticen una operación ininterrumpida.</p>
+                        </div>
+                        
+                        <div class="valor-item">
+                            <h4>Integridad y Seguridad</h4>
+                            <p>Actuamos con total transparencia en nuestras auditorías tecnológicas y garantizamos la máxima protección de la información en cada sistema y red que implementamos.</p>
+                        </div>
+                        
+                        <div class="valor-item">
+                            <h4>Adaptabilidad</h4>
+                            <p>Entendemos que cada empresa es un mundo distinto. Somos flexibles para escalar y ajustar nuestras soluciones tecnológicas al ritmo de crecimiento de cada cliente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Aviso de cookies">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h3>🍪 Usamos cookies para mejorar tu experiencia</h3>
+                <p>Utilizamos cookies propias y de terceros para personalizar el contenido, analizar el tráfico y mejorar tu experiencia en nuestro sitio. Al continuar navegando, aceptas el uso de cookies.</p>
+                <a href="politica-privacidad.html" class="cookie-link">Conoce nuestra política de privacidad</a>
+            </div>
+            <div class="cookie-actions">
+                <button id="acceptCookies" class="btn-cookie-accept">Aceptar todas</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
